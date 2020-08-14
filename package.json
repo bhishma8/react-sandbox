@@ -5,8 +5,10 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "jsx": "0.9.89",
+    "lodash": "4.17.20",
     "react": "16.13.1",
-    "react-dom": "16.11.0"
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "typescript": "3.3.3"
