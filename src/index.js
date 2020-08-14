@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-const name = "Ishan";
-const number = 7;
+
+const customStyle = {
+  color: "red",
+  fontSize: "20px"
+};
 ReactDOM.render(
   <div>
-    <h1>Hello {name} </h1>
-    <p>Your lucky number is {number} </p>
+    <h1 style={customStyle}>Hello World ! </h1>
   </div>,
   document.getElementById("root")
 );
