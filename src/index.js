@@ -20,6 +20,11 @@ ReactDOM.render(
       tel="+123 456"
       email="beyonce@email"
     />
+    <Card
+    name="Aditya"
+    tel="123 456"
+    email="aditya@burbok.com"
+    />
   </div>,
   document.getElementById("root")
 );
